@@ -2,20 +2,19 @@
 
 ### How to run my Lottery Machine
 
-1. From a command prompt
+- From a command prompt:
+	- Navigate to the `src/` directory of this project
+	- Compile the java classes with this following command
+		```
+		javac -cp . challenge/*.java
+		```
+		- Run the Main function in the LotterySimulator class using the following command:
+		``` 
+		java -cp . challenge.LotterySimulator
+		```
 
-- Navigate to the `src/` directory of this project
-- Compile the java classes with this following command
-```
-javac -cp . challenge/*.java
-```
-- Run the Main function in the LotterySimulator class using the following command:
-``` 
-java -cp . challenge.LotterySimulator
-```
-
-2. From Eclipse IDE:
-- Run the `challenge` package as a Java Application.
+- From Eclipse IDE:
+	- Run the `challenge` package as a Java Application.
 
 ### My Implementation Details
 - `LotterySimulator` has the `main()` function that runs the Lottery Simulation.
