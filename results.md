@@ -6,7 +6,7 @@
 
 - Navigate to the `src/` directory of this project
 - Compile the java classes with this following command
-``` 
+```
 javac -cp . challenge/*.java
 ```
 - Run the Main function in the LotterySimulator class using the following command:
